@@ -455,9 +455,13 @@ span {
     .header-block {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .header-logo {
         margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
     .header-logo-img {
