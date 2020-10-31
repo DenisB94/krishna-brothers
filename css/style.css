@@ -467,11 +467,11 @@ span {
     .header-logo-img {
         width: 60px;
         height: 60px;
-        margin-right: 5px;
+        margin-right: 10px;
     }
     .header-title {
         
-        font-size: 15px;
+        font-size: 18px;
     }
     .header-links {
         display: block;
@@ -524,6 +524,7 @@ span {
         margin: auto;
         width: 95%;
         max-height: 350px;
+        margin-top: 10px;
     }
     .big-title {
         font-size: 12px;
