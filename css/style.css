@@ -1,0 +1,792 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Rosarivo';
+}
+.header {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 85px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.header-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.header-logo-img {
+    width: 110px;
+    height: 105px;
+    margin-right: 20px;
+}
+.header-title {
+    font-family: 'Macondo Swash Caps';
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.header-links {
+    max-width: 680px;
+}
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 148%;
+letter-spacing: 0.115em;
+margin-right: 50px;
+
+}
+.header-social-links {
+    display: flex;
+    align-items: center;
+}
+.header-link:last-child {
+    margin-right: 0;
+}
+.header-link:hover {
+    
+    color: white;
+    text-decoration: underline 1px;
+    
+}
+.social-youtube {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* home */
+
+.home {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.home-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-texts {
+    max-width: 690px;
+}
+.home-text {
+    font-family: Rosarivo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 148%;
+letter-spacing: 0.155em;
+}
+.big-title {
+    font-family: 'Macondo Swash Caps';
+    font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 148%;
+letter-spacing: 5px;
+text-transform: uppercase;
+
+}
+/* history */
+
+.history {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.history-title {
+    text-align: center;
+    font-family: Rosarivo;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 148%;
+letter-spacing: 0.205em;
+color: #FFFFFF;
+margin-bottom: 0;
+}
+.hist-line {
+     width: 250px;
+}
+.history-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hisory-img {
+    position: static;
+}
+.img-text {
+    position: absolute;
+    left: 0;
+    margin-left: 11%;
+    margin-top: 25%;
+    font-family: 'Rouge Script';
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 148%;
+letter-spacing: 0.3em;
+color: #FFFFFF;
+}
+.hist-text1 {
+    max-width: 750px;
+}
+.history-text {
+    font-family: Rosarivo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 155.5%;
+letter-spacing: 0.075em;
+color: #FFFFFF;
+}
+.hist-text2 {
+    display: block;
+}
+/* band */
+
+.band {
+    
+    max-width: 1920px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.hist-line2 {
+    width: 140px;
+}
+.members {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title {
+    margin-top: 40px;
+    font-family: Rufina;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 148%;
+letter-spacing: 0.09em;
+}
+
+/* discography */
+
+.discography {
+    padding-top: 30px;
+    max-width: 1920px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.hist-line3 {
+    width: 420px;
+}
+.studio-album {
+    text-align: center;
+    font-family: 'Rosarivo';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 148%;
+letter-spacing: 0.09em;
+}
+.album-block {
+    margin-top: 110px;
+}
+.album-cards {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.album-img-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.album-title {
+    font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 148%;
+letter-spacing: 0.09em;
+text-align: center;
+}
+.album-description {
+    max-width: 705px;
+}
+.album-text {
+    margin-top: 0;
+    font-family: 'Rosarivo';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 148.5%;
+letter-spacing: 0.04em;
+}
+.album-img {
+    width: 400px;
+    height: 400px;
+}
+.youtube {
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rosarivo';
+    font-size: 15px;
+    border: 3px solid rgb(161, 149, 149);
+    outline: none;
+}
+.youtube:hover {
+    border-color:  rgb(121, 7, 7);
+    box-shadow: 0px 0px 35px rgb(161, 11, 11);
+    color:rgb(218, 74, 74);
+    outline: none;
+}
+.youtube-2 {
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rosarivo';
+    font-size: 15px;
+    border: 3px solid rgb(161, 149, 149);
+    outline: none;
+}
+.youtube-2:hover {
+    border-color:  rgb(121, 7, 7);
+    box-shadow: 0px 0px 35px rgb(161, 11, 11);
+    color:rgb(218, 74, 74);
+    outline: none;
+}
+.youtube-3 {
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rosarivo';
+    font-size: 15px;
+    border: 3px solid rgb(161, 149, 149);
+    outline: none;
+}
+.youtube-3:hover {
+    border-color:  rgb(121, 7, 7);
+    box-shadow: 0px 0px 35px rgb(161, 11, 11);
+    color:rgb(218, 74, 74);
+    outline: none;
+}
+/* footer-block */
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title {
+    font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 148%;
+letter-spacing: 0.335em;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+margin-bottom: 50px;
+}
+.footer-img {
+    
+    width: 210px;
+    height: 200px;
+}
+.footer-links {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-link-img {
+    width: 30px;
+    height: 30px;
+}
+.footer-line {
+    margin-top: 40px;
+    width: 412px;
+border: 1px solid #b1aaaa;
+}
+.my-lable {
+    font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 148%;
+letter-spacing: 0.09em;
+margin-bottom: 0;
+}
+
+.button {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.fadeIn {
+    animation-duration: 5s;
+    
+}
+.slideInDown {
+    animation-duration: 3s;
+}
+
+/* jQuery Window */
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup {
+    position: fixed;
+    left: 50%;
+    width: 752px;
+    top: 200px;
+    transform: translateX(-50%);
+    
+}
+.popup-close {
+    position: absolute;
+    right: -20px;
+    top: -30px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/* jQuery Window */
+/* jQuery Window */
+.overlay-2 {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup {
+    position: fixed;
+    left: 50%;
+    width: 752px;
+    top: 200px;
+    transform: translateX(-50%);
+    
+}
+.popup-close-2 {
+    position: absolute;
+    right: -20px;
+    top: -30px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/* jQuery Window */
+
+/* MEDIA */
+
+@media (max-width: 1600px), (max-width: 1630px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    .img-text {
+        position: absolute;
+        left: 0;
+        margin-left: 3%;
+        margin-top: 30%;
+        font-family: 'Rouge Script';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 148%;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    }
+    .discography {
+        padding-top: 30px;
+        max-width: 1920px;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        max-width: 576px;
+        width: 90%;
+        margin-bottom: 30px;
+        
+    }
+    .header-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-logo {
+        
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+    }
+    .header-logo-img {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+    }
+    .header-title {
+        
+        font-size: 15px;
+    }
+    .header-links {
+        display: block;
+        margin-top: 20px;
+    }
+    .header-link {
+        color: white;
+        text-decoration: none;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 148%;
+    letter-spacing: 0.115em;
+    margin-right: 10px;
+    
+    }
+    .header-social-links {
+       
+       order: 1;
+    }
+    /* home */
+
+    .home {
+        width: 100%;
+        height: 100%;
+        height: 400px;
+        max-width: 415px;
+        min-height: 300px;
+        margin: auto;
+        background: url(../img/bandsombre.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .home-block {
+        /* min-width: 100%;
+        max-height: 100%;
+        display: block;
+        background: url(../img/band-gradient.jpg) no-repeat;
+        background-size: cover;
+        background-position: center; */
+        
+    }
+    .home-img {
+        
+        display: none;
+    }
+    .home-text {
+        font-size: 14px;
+        text-align: center;
+    }
+    .home-texts {
+        margin: auto;
+        width: 95%;
+        max-height: 350px;
+    }
+    .big-title {
+        font-size: 12px;
+        line-height: 100%;
+    letter-spacing: 2px;
+    }
+
+    /* history */
+
+.history {
+    max-width: 574px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.history-title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Rosarivo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 148%;
+letter-spacing: 0.205em;
+color: #FFFFFF;
+margin-bottom: 0;
+}
+.hist-line {
+     width: 100px;
+}
+.history-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hisory-img {
+    position: static;
+    width: 100%;
+}
+.img-text {
+    position: absolute;
+    left: 0;
+    margin-left: 8%;
+    margin-top: 61%;
+    font-family: 'Rouge Script';
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 148%;
+letter-spacing: 3px;
+color: #FFFFFF;
+}
+.hist-text1 {
+    margin-top: 30px;
+    max-width: 100%;
+}
+.history-text {
+    margin-top: 0;
+    font-family: Rosarivo;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 155.5%;
+letter-spacing: 0.075em;
+color: #FFFFFF;
+}
+.hist-text2 {
+    margin-top: 0;
+    display: block;
+}
+/* band */
+
+.band {
+    
+    max-width: 574px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.hist-line2 {
+    width: 90px;
+}
+.members {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+.card {
+    
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img {
+    width: 70%;
+}
+.card-title {
+    margin-top: 40px;
+    font-family: Rufina;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 148%;
+letter-spacing: 0.09em;
+}
+
+/* discography */
+
+.discography {
+    padding-top: 0px;
+    max-width: 1700px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.hist-line3 {
+    width: 230px;
+}
+.studio-album {
+    text-align: center;
+    font-family: 'Rosarivo';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 148%;
+letter-spacing: 0.09em;
+}
+.album-block {
+    margin-top: 50px;
+}
+.album-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.album-img-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.album-title {
+    font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 148%;
+letter-spacing: 0.09em;
+text-align: center;
+}
+.album-description {
+    padding-top: 30px;
+    max-width: 90%;
+    margin: auto;
+}
+.album-text {
+    margin-top: 0px;
+    font-family: 'Rosarivo';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 148.5%;
+letter-spacing: 0.04em;
+}
+.album-img {
+    width: 300px;
+    height: 300px;
+}
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup {
+    position: fixed;
+    left: 50%;
+    width: 350px;
+    top: 200px;
+    transform: translateX(-50%);
+    
+}
+.popup-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+}
+iframe {
+    width: 350px;
+    height: 250px;
+}
+
+/* footer-block */
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title {
+    font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 148%;
+letter-spacing: 0.335em;
+text-transform: uppercase;
+}
+.footer-img {
+    
+    width: 210px;
+    height: 200px;
+}
+.footer-links {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-link-img {
+    width: 30px;
+    height: 30px;
+}
+.footer-line {
+    margin-top: 20px;
+    width: 35%;
+border: 1px solid #b1aaaa;
+}
+.my-lable {
+    font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 148%;
+letter-spacing: 0.09em;
+margin-bottom: 0;
+}
+    
+}
