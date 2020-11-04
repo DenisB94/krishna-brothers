@@ -503,7 +503,7 @@ margin-bottom: 0;
     }
     .header-social-links {
        
-       order: 1;
+       display: none;
     }
     /* home */
 
